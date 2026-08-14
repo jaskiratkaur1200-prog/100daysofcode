@@ -1,8 +1,8 @@
 #include<stdio.h>
-main(){
+int 6 main(){
     float a, b;
     printf("Enter two floating-point numbers: ");
-    scanf("%f %f", &a, &b);
+    scanf("%f%f", &a, &b);
     printf("%f", a+b);
     printf("\n%f%f", a-b);
     printf("\n%f%f", a*b);
