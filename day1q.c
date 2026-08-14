@@ -1,5 +1,5 @@
 #include<stdio.h>
-int 6 main(){
+int main(){
     float a, b;
     printf("Enter two floating-point numbers: ");
     scanf("%f%f", &a, &b);
