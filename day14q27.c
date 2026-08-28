@@ -5,6 +5,6 @@ int main(){
     scanf("%d",&n);
     for(int i=1; i<=n; i++){
        sum = sum + (2*i-1);
-    }
+    } //Write a program to find sum of first n odd numbers.
     printf("Sum of first %d odd numbers is: %d",n,sum);
 }

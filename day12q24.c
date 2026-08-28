@@ -3,7 +3,7 @@
 int main() {
     int units;
     float bill;
-
+//Write a program to calculate electricity bill based on the following criteria:
     printf("Enter units consumed: ");
     scanf("%d", &units);
 

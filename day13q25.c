@@ -3,7 +3,7 @@
 int main() {
     int a, b;
     char op;
-
+//Write a program to perform basic arithmetic operations (+, -, *, /, %).
     printf("Enter first number: ");
     scanf("%d", &a);
 
@@ -43,6 +43,4 @@ int main() {
         default:
             printf("Invalid operator");
     }
-
-    return 0;
 }
