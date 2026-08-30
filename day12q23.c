@@ -21,6 +21,4 @@ int main() {
     else {
         printf("Membership Cancelled");
     }
-
-    return 0;
 }
