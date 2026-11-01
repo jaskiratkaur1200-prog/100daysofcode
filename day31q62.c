@@ -1,27 +1,17 @@
 #include <stdio.h>
 
-int main()
-{
-    int a[100], n, i, temp;
-
+int main(){ //q-reverse an array.
+    int a[100], n;
+    printf("Enter the number of elements: ");
     scanf("%d", &n);
 
-    for(i = 0; i < n; i++)
-    {
+    for(int i = 0; i < n; i++){
         scanf("%d", &a[i]);
     }
 
-    for(i = 0; i < n / 2; i++)
-    {
-        temp = a[i];
-        a[i] = a[n - 1 - i];
-        a[n - 1 - i] = temp;
-    }
-
-    for(i = 0; i < n; i++)
-    {
-        printf("%d ", a[i]);
-    }
+    printf("Elements in reverse order: ");
+    for(int i = n - 1; i >= 0; i--)
+    printf("%d ", a[i]);
 
     return 0;
 }
